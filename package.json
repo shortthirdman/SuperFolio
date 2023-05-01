@@ -1,0 +1,74 @@
+{
+  "name": "myprofile",
+  "description": "Super Folio",
+  "version": "0.0.0",
+  "author": {
+    "name": "Swetank Mohanty",
+    "url": "https://github.com/shortthirdman",
+    "email": "swetank.mohanty@outlook.com"
+  },
+  "bugs": {
+    "url": "https://github.com/shortthirdman/myprofile/issues"
+  },
+  "readme": "README.md",
+  "license": "LICENSE",
+  "repository": {
+    "url": "https://github.com/shortthirdman/myprofile.git",
+    "type": "git"
+  },
+  "homepage": "https://myprofile.shortthirdman.com",
+  "prettier": {
+    "arrowParens": "always"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --cross-origin anonymous --delete-output-path --aot",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^14.2.0",
+    "@angular/common": "^14.2.0",
+    "@angular/compiler": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/forms": "^14.2.0",
+    "@angular/platform-browser": "^14.2.0",
+    "@angular/platform-browser-dynamic": "^14.2.0",
+    "@angular/router": "^14.2.0",
+    "@fortawesome/fontawesome-free": "6.4.0",
+    "@srexi/purecounterjs": "1.5.0",
+    "animejs": "3.2.1",
+    "aos": "2.3.4",
+    "bigpicture": "2.6.2",
+    "bootstrap": "5.2.3",
+    "bootstrap-icons": "1.10.5",
+    "imagesloaded": "5.0.0",
+    "lodash": "4.17.21",
+    "masonry-layout": "4.2.2",
+    "primeicons": "6.0.1",
+    "primeng": "14.2.3",
+    "rxjs": "~7.5.0",
+    "simple-icons": "8.12.1",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.2.6",
+    "@angular/cli": "~14.2.6",
+    "@angular/compiler-cli": "^14.2.0",
+    "@types/animejs": "3.1.7",
+    "@types/aos": "3.0.4",
+    "@types/jasmine": "~4.0.0",
+    "@types/lodash": "4.14.191",
+    "@types/node": "18.14.1",
+    "jasmine-core": "~4.3.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "typescript": "~4.7.2"
+  }
+}
