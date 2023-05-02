@@ -1,7 +1,4 @@
 export const environment = {
   production: true,
-  clusterUrl: '',
-  clusterUsername: '',
-  clusterPassword: '',
-  authMechanism: 'DEFAULT'
+  launchDate: '15 Jul 2023 17:30:00 GMT'
 };

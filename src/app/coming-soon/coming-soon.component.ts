@@ -1,7 +1,8 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, Inject, OnDestroy, OnInit, Renderer2 } from '@angular/core';
 
-import * as _ from 'lodash';
+import _ from 'lodash';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'coming-soon',
@@ -15,7 +16,7 @@ export class ComingSoonComponent implements OnInit, OnDestroy {
   currentYear: string = new Date().getFullYear().toString();
 
   constructor(@Inject(DOCUMENT) private document: Document) {
-    this.endDate = Date.parse("05 Jul 2023 15:30:00 GMT");
+    this.endDate = Date.parse(environment.launchDate);
     console.log("Timer ends on", new Date(this.endDate));
     console.log("Current time", new Date(Date.now()));
   }
