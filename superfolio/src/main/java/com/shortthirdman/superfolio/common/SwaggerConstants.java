@@ -21,4 +21,6 @@ public class SwaggerConstants {
 
     public static final String NEW_USER_FRAGMENT_ADDED = "New user profile fragment added";
     public static final String USER_FRAGMENTS_RETRIEVAL = "Successful retrieval of all user profile fragments";
+    public static final String USER_FRAGMENT_UPDATED = "Successful update of user profile fragment";
+    public static final String USER_FRAGMENT_DELETED = "Successful deletion of user profile fragment";
 }

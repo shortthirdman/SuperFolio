@@ -7,11 +7,11 @@
 # You can add other services your application may depend on here, such as a
 # database or a cache. For examples, see the Awesome Compose repository:
 # https://github.com/docker/awesome-compose
-name: TransAeroHub
+name: SuperFolio
 
 services:
   redis:
-    container_name: redis-dev
+    container_name: superfolio-redis
     ports:
       - "6379:6379"
       - "8001:8001"
@@ -29,7 +29,7 @@ services:
     environment:
       - REDIS_ARGS=--save 60 1000 --appendonly yes --loglevel warning
       - REDISTIMESERIES_ARGS=RETENTION_POLICY=20
-    image: redis/redis-stack:6.2.6-v17 # redis/redis-stack-server:6.2.6-v17
+    image: redis/redis-stack:6.2.6-v17
 
   superfolio:
     container_name: superfolio

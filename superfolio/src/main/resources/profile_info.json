@@ -1,6 +1,6 @@
 {
 	"user:basic_details": {
-		-- "full_name": "Swetank Mohanty",
+		"full_name": "Swetank Mohanty",
 		"label": "",
 		"email": {
 			"primary": "swetank.mohanty@outlook.com",
@@ -12,10 +12,10 @@
 			"secondary": "7003668435"
 		},
 		"website": "https://www.shortthirdman.com/",
-		--"birth_date": "1994-04-03",
-		--"birth_place": "Bhubaneswar, Odisha, India",
-		--"gender": "Male",
-		--"nationality": "Indian",
+		"birth_date": "1994-04-03",
+		"birth_place": "Bhubaneswar, Odisha, India",
+		"gender": "Male",
+		"nationality": "Indian",
 		"user:work_preferences": {
 			"remote": false,
 			"hybrid": true,
@@ -139,6 +139,6 @@
 	}],
 	"awards": [],
 	"publications": [],
-	"certifications": []
+	"certifications": [],
 	"skills": []
 }

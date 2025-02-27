@@ -3,6 +3,7 @@ package com.shortthirdman.superfolio.controller;
 import com.shortthirdman.superfolio.model.User;
 import com.shortthirdman.superfolio.service.IUserService;
 import com.shortthirdman.superfolio.swagger.GetUserProfile;
+import com.shortthirdman.superfolio.swagger.RemoveUserFragment;
 import com.shortthirdman.superfolio.swagger.SaveUserFragment;
 import com.shortthirdman.superfolio.swagger.UpdateUserFragment;
 import org.springframework.http.HttpStatus;
@@ -35,7 +36,13 @@ public class UserProfileController {
 
     @GetUserProfile
     @GetMapping(path = "/{fragment}")
-    public ResponseEntity<User> getUserProfile(@PathVariable String fragment, @RequestBody Map<String, Object> details) {
+    public ResponseEntity<User> getUserProfile(@PathVariable(required = false) String fragment) {
         return new ResponseEntity<>(userService.getUserDetails(fragment), HttpStatus.OK);
+    }
+
+    @RemoveUserFragment
+    @DeleteMapping(path = "/{fragment}")
+    public ResponseEntity<Boolean> deleteUserProfile(@PathVariable(required = false) String fragment) {
+        return new ResponseEntity<>(userService.deleteUserDetailFragment(fragment), HttpStatus.OK);
     }
 }

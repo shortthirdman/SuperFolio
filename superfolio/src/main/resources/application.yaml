@@ -136,6 +136,6 @@ management:
       discovery:
         enabled: true
       exposure:
-        include: openapi, swagger-ui, *
+        include: openapi, swagger-ui, prometheus, *
     access:
       default: unrestricted

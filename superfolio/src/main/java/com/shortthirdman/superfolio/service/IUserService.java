@@ -10,7 +10,7 @@ public interface IUserService {
 
     Boolean updateUserDetailFragment(String fragment, Map<String, ?> details);
 
-    Boolean deleteUserDetailFragment(String fragment, Map<String, ?> details);
+    Boolean deleteUserDetailFragment(String fragment);
 
     User getUserDetails(String fragment);
 }

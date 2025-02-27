@@ -6,11 +6,16 @@ import lombok.Getter;
 public enum UserFragmentOption {
 
     BASE("base", "user:*"),
-    BASICS("basics", "user:basics"),
-    CONTACTS_PHONE("phone", "user:contact:phone_numbers"),
-    CONTACTS_EMAIL("email", "user:contact:email_address"),
-    WORK_EXPERIENCES("work-experiences", "user:employment_history"),
-    WORK_PREFERENCES("work-preferences", "user:employment_preferences");
+    BASICS("basics", "user:basic_details"),
+    CONTACTS_PHONE("phone", "user:phone_numbers"),
+    CONTACTS_EMAIL("email", "user:email_address"),
+    PERMANENT_LOCATION("permanentLocation", "user:permanent_location"),
+    CURRENT_LOCATION("currentLocation", "user:current_location"),
+    WORK_EXPERIENCES("workExperiences", "user:employment_history"),
+    WORK_PREFERENCES("workPreferences", "user:employment_preferences"),
+    SOCIAL_MEDIA_PROFILES("socialNetworks", "user:social_networks"),
+    TECH_SKILLS("techSkills", "user:technology_skills"),
+    EDUCATION_HISTORY("educationHistory", "user:education_history");
 
     private final String fragment;
     private final String prefix;

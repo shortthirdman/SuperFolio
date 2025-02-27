@@ -11,6 +11,7 @@ public class Basics {
     private String lastName;
     private String fullName;
     private String gender;
+    private String website;
     private String birthDate;
     private String birthPlace;
     private String nationality;
