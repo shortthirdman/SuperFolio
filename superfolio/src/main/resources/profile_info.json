@@ -1,0 +1,144 @@
+{
+	"user:basic_details": {
+		"full_name": "Swetank Mohanty",
+		"label": "",
+		"email": {
+			"primary": "swetank.mohanty@outlook.com",
+			"secondary": "swetank.mohanty@gmail.com"
+		},
+		"phone": {
+			"countryCode": "+91",
+			"primary": "9007636266",
+			"secondary": "7003668435"
+		},
+		"website": "https://www.shortthirdman.com/",
+		"birth_date": "1994-04-03",
+		"birth_place": "Bhubaneswar, Odisha, India",
+		"gender": "Male",
+		"nationality": "Indian",
+		"user:work_preferences": {
+			"remote": false,
+			"hybrid": true,
+			"freelancing": false,
+			"relocation": true,
+			"contractToHire": false
+		},
+		"user:location": {
+			"user:location:permanent": {
+				"address": "4, Charu Chandra Place East, Charu Chandra Ave, Tollygunge",
+				"postalCode": "700033",
+				"city": "Kolkata",
+				"country": "India",
+				"region": "West Bengal"
+			},
+			"user:location:current": {
+				"address": "U-16/83, U Block, DLF Phase 3, Sector 24",
+				"postalCode": "122002",
+				"city": "Gurugram (Gurgaon)",
+				"country": "India",
+				"region": "Haryana"
+			}
+		},
+		"user:social_profiles": [{
+			"network": "GitHub",
+			"username": "shortthirdman",
+			"url": "https://www.github.com/shortthirdman"
+		}, {
+			"network": "LinkedIn",
+			"url": "https://www.linkedin.com/in/shortthirdman",
+			"username": "shortthirdman"
+		}, {
+			"network": "Twitter",
+			"url": "https://www.twitter.com/ShortThirdMan93",
+			"username": "ShortThirdMan"
+		}, {
+			"network": "Facebook",
+			"url": "https://www.facebook.com/ShortThirdManOfficial",
+			"username": "ShortThirdManOfficial"
+		}, {
+			"network": "Instagram",
+			"url": "https://www.instagram.com/shortthirdman",
+			"username": "shortthirdman"
+		}, {
+			"network": "YouTube",
+			"username": "SwetankMohantyOfficial",
+			"url": "https://www.youtube.com/user/SwetankMohantyOfficial"
+		}, {
+			"network": "HackerRank",
+			"username": "shortthirdman",
+			"url": "https://www.hackerrank.com/shortthirdman"
+		}, {
+			"network": "Gravatar",
+			"username": "swetankmohanty93",
+			"url": "https://en.gravatar.com/swetankmohanty93"
+		}]
+	},
+	"workExperiences": [],
+	"internships": [{
+		"company": "Centre for Development of Advanced Computing, India",
+		"position": "Graduate Engineer Intern",
+		"website": "https://www.cdac.in",
+		"location": "Kolkata, India",
+		"isCurrentRole": false,
+		"startDate": "2016-01-01",
+		"endDate": "2016-05-17",
+		"start": {
+			"year": 2016,
+			"month": 1
+		},
+		"end": {
+			"year": 2016,
+			"month": 5
+		},
+		"summary": "Graduate Engineer Trainee",
+		"highlights": [
+			"Project Intern"
+		]
+	}],
+	"volunteer": [],
+	"education": [{
+		"institution": "Indian Institute of Technology, Roorkee",
+		"location": "Roorkee, India",
+		"area": "Data Science and Machine Learning",
+		"studyType": "Post-Graduate Certificate Programme",
+		"startDate": "2021-01-27",
+		"endDate": "2022-03-08",
+		"completed": true,
+		"start": {
+			"year": 2021,
+			"month": 1
+		},
+		"end": {
+			"year": 2022,
+			"month": 3
+		},
+		"description": "Post-Graduate Degree Certificate Programme for Data Science, Machine Learning, Big Data",
+		"activities": null,
+		"gpa": null,
+		"courses": ["Programming in Python", "Data Science", "Machine Learning", "Deep Learning", "Artificial Intelligence", "Image/Video Processing"]
+	}, {
+		"institution": "Sikkim Manipal Institute of Technology",
+		"location": "Gangtok, India",
+		"area": "Computer Science",
+		"studyType": "Bachelor of Technology",
+		"startDate": "2011-07-18",
+		"endDate": "2016-05-28",
+		"completed": true,
+		"start": {
+			"year": 2011,
+			"month": 7
+		},
+		"end": {
+			"year": 2016,
+			"month": 5
+		},
+		"description": "Full-time four-year Bachelor's degree programme in Engineering and Technology",
+		"activities": null,
+		"gpa": "6.38",
+		"courses": []
+	}],
+	"awards": [],
+	"publications": [],
+	"certifications": [],
+	"skills": []
+}
